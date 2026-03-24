@@ -1,17 +1,111 @@
-# flutter_blinkit_ui
+# 🛒 Flutter Blinkit UI
 
-A new Flutter project.
+A modern **Flutter UI clone of the Blinkit app**, designed with clean layout, custom widgets, and smooth navigation.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Screens Included
 
-A few resources to get you started if this is your first Flutter project:
+- 🚀 Splash Screen  
+- 🔐 Login Screen  
+- 🎨 Custom UI Components  
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ✨ Features
+
+- Clean and responsive UI  
+- Reusable custom widgets (`Uihelper`)  
+- Navigation using `Navigator`  
+- Organized folder structure  
+- Flutter best practices  
+
+---
+
+## 🛠️ Tech Stack
+
+- **Flutter**
+- **Dart**
+- Material UI
+
+---
+
+## 📂 Project Structure
+
+```
+
+lib/
+│
+├── domain/
+│   └── constants/
+│       └── appcolors.dart
+│
+├── repository/
+│   ├── screens/
+│   │   ├── splash/
+│   │   └── login/
+│   │
+│   └── widgets/
+│       └── uihelper.dart
+│
+└── main.dart
+
+```
+
+---
+
+## 📸 Screenshots
+
+> Add your screenshots here
+
+```
+
+assets/screenshots/splash.png
+assets/screenshots/login.png
+
+````
+
+---
+
+## 🚀 Getting Started
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/ParthBambhaniya/flutter-blinkit-ui.git
+````
+
+### 2️⃣ Navigate to project
+
+```bash
+cd flutter-blinkit-ui
+```
+
+### 3️⃣ Install dependencies
+
+```bash
+flutter pub get
+```
+
+### 4️⃣ Run the app
+
+```bash
+flutter run
+```
+
+---
+
+## 📌 Future Improvements
+
+* Add Home Screen UI
+* Add Product Listing UI
+* Add Cart Functionality
+* Add Animations
+
+---
+
+## 👨‍💻 Author
+
+**Parth Bambhaniya**
+
+* GitHub: [https://github.com/ParthBambhaniya](https://github.com/ParthBambhaniya)
+
