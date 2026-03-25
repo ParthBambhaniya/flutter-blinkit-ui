@@ -41,7 +41,7 @@ class LoginScreen extends StatelessWidget {
                borderRadius: BorderRadiusGeometry.circular(10),
             ),
             child: Container(
-              height: 174,
+              height: 200,
               width: 350,
               decoration: BoxDecoration(
                 borderRadius: BorderRadiusGeometry.circular(10),
@@ -80,11 +80,25 @@ class LoginScreen extends StatelessWidget {
                   SizedBox(width: 5,),
                   Uihelper.CustomImage(img: "image3.png")
                 ],)),
-                )
+                ),
+
+                SizedBox(height: 8,),
+                Uihelper.CustomText(text: "Access your saved addresses from Zomato automatically!", 
+                color: Color(0XFF9C9C9C), 
+                fontweight: FontWeight.normal, 
+                fontsize: 10),
+
+                SizedBox(height: 13,),
+                Uihelper.CustomText(text: "or login with phone number", 
+                color: Color(0XFF269237), 
+                fontweight: FontWeight.normal, 
+                fontsize: 14),
+
+
+
               ],),
             ),
           )
-  
         ],),
       ),
     );
