@@ -13,6 +13,7 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:flutter_blinkit_ui/repository/screens/bottomnav/bottomnavscreen.dart';
 import 'package:flutter_blinkit_ui/repository/widgets/uihelper.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -63,8 +64,14 @@ class LoginScreen extends StatelessWidget {
                 fontfamily: "bold"),
 
                 SizedBox(height: 20,),
-                SizedBox(height: 48,width: 295,
-                child: ElevatedButton(onPressed: (){}, style: ElevatedButton.styleFrom(
+                SizedBox(
+                  height: 48,
+                  width: 295,
+                child: ElevatedButton(
+                  onPressed: (){
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>BottomNavScreen()));
+                  }, 
+                style: ElevatedButton.styleFrom(
                   backgroundColor: Color(0XFFE23744),
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(10)
