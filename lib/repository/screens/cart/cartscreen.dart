@@ -76,6 +76,74 @@ class CartScreen extends StatelessWidget{
           child: Uihelper.CustomTextField(controller: searchController),)
           ],
         ),
+        SizedBox(height: 20,),
+        Uihelper.CustomImage(img: "shopping-cart.png"),
+        SizedBox(height: 20,),
+        Uihelper.CustomText(
+          text: "Reordering will be easy", 
+          color: Color(0XFF000000), 
+          fontweight: FontWeight.bold, 
+          fontsize: 16,
+          fontfamily: "bold",
+          ),
+
+        Uihelper.CustomText(
+          text: "Items you order will show up here so you can buy", 
+          color: Color(0XFF000000), 
+          fontweight: FontWeight.normal, 
+          fontsize: 12,
+          ),
+
+        Uihelper.CustomText(
+          text: "them again easily.", 
+          color: Color(0XFF000000), 
+          fontweight: FontWeight.normal, 
+          fontsize: 12,
+          ),
+      SizedBox(height: 30,),
+      Row(children: [
+        SizedBox(width: 20,),
+        Uihelper.CustomText(
+        text: "Bestsellers", 
+        color: Color(0XFF000000), 
+        fontweight: FontWeight.bold,
+        fontsize: 16,
+        fontfamily: "bold"),
+      ],),
+      SizedBox(height: 10,),
+      Row(children: [
+        SizedBox(width: 20,),
+        Stack(
+          children: [
+            Uihelper.CustomImage(img: "milk.png"),
+          Padding(padding: EdgeInsets.only(top: 95,left: 65),
+          child: Uihelper.CustomButton((){}),
+          ),
+          Uihelper.CustomText(
+        text: "Amul Taaza Toned", 
+        color: Color(0XFF000000), 
+        fontweight: FontWeight.normal,
+        fontsize: 8,),
+        ],),
+
+        SizedBox(width: 15,),
+        Stack(
+          children: [
+            Uihelper.CustomImage(img: "aloo.png"),
+          Padding(padding: EdgeInsets.only(top: 95,left: 65),
+          child: Uihelper.CustomButton((){}),
+          ),
+        ],),
+
+        SizedBox(width: 15,),
+        Stack(
+          children: [
+            Uihelper.CustomImage(img: "tomato.png"),
+          Padding(padding: EdgeInsets.only(top: 95,left: 65),
+          child: Uihelper.CustomButton((){}),
+          ),
+        ],)
+      ],),
       ],
       ),);
   }
