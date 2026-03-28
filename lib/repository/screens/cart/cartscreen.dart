@@ -8,8 +8,10 @@ class CartScreen extends StatelessWidget{
   @override
   Widget build (BuildContext context){
     return Scaffold(
-      body: Column(children: [
+      body: Column(
+        children: [
         SizedBox(height: 40,),
+        
         Stack(
           children: [
             Container(
@@ -17,7 +19,6 @@ class CartScreen extends StatelessWidget{
           width: double.infinity,
           color: Color(0XFFF7CB45),
           child: Column(
-            //mainAxisAlignment: MainAxisAlignment.center,
             children: [
               SizedBox(height: 30,),
               Row(children: [
