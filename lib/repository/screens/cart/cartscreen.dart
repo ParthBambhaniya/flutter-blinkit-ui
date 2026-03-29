@@ -15,7 +15,7 @@ class CartScreen extends StatelessWidget{
         Stack(
           children: [
             Container(
-          height: 190,
+          height: 190,  
           width: double.infinity,
           color: Color(0XFFF7CB45),
           child: Column(
@@ -120,12 +120,9 @@ class CartScreen extends StatelessWidget{
           Padding(padding: EdgeInsets.only(top: 95,left: 65),
           child: Uihelper.CustomButton((){}),
           ),
-          Uihelper.CustomText(
-        text: "Amul Taaza Toned", 
-        color: Color(0XFF000000), 
-        fontweight: FontWeight.normal,
-        fontsize: 8,),
-        ],),
+        ],
+        ),
+        
 
         SizedBox(width: 15,),
         Stack(
